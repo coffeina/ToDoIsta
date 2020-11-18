@@ -2,8 +2,8 @@ const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 
-
 todoButton.addEventListener('click', addTodo);
+todoList.addEventListener('click', deleteCheck);
 
 function addTodo(event) {
     event.preventDefault(); // Prevent form from submitting
@@ -29,4 +29,12 @@ function addTodo(event) {
     todoList.appendChild(todoDiv);
     // Clear Todo input value
     todoInput.value = '';
+}
+
+function deleteCheck(event) {
+    const item = event.target;
+    if (item.classList[0] == 'trash-btn') {
+        const todo = item.parentElement;
+        todo.remove();
+    }
 }
