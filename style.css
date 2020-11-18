@@ -48,3 +48,21 @@ form button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.todo li {
+    flex: 1;
+}
