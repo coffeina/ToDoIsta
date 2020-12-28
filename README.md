@@ -1,4 +1,4 @@
-# ToDoIsta
+# To Do Lista
 
 ## Table of contents
 * [General info](#general-info)
@@ -16,7 +16,6 @@
 <p align="center">
   <img src="./assets/3.png" alt="Demo" width="800" />
 </p>
-[DEMO]()
 
 ## General info
 To do lista: project created creating vanilla JS.
