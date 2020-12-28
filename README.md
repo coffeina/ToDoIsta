@@ -9,6 +9,13 @@
   <img src="./assets/1.png" alt="Demo" width="800" />
 </p>
 
+<p align="center">
+  <img src="./assets/2.png" alt="Demo" width="800" />
+</p>
+
+<p align="center">
+  <img src="./assets/3.png" alt="Demo" width="800" />
+</p>
 [DEMO]()
 
 ## General info
